@@ -1,0 +1,22 @@
+CREATE DATABASE my_db;
+
+CREATE TABLE student (
+StdId INT NOT NULL,
+FirstName varchar(45) NOT NULL,
+LastName varchar(45) DEFAULT NULL,
+Email varchar(45) NOT NULL,
+PRIMARY KEY (StdId),
+UNIQUE (Email)
+)
+DROP TABLE student
+
+CREATE TABLE course (
+cid varchar(32) NOT NULL,
+coursename varchar(45) NOT NULL,
+PRIMARY KEY (cid)
+)
+CREATE TABLE course (
+cid varchar(32) NOT NULL,
+coursename varchar(45) NOT NULL,
+PRIMARY KEY (cid)
+)
